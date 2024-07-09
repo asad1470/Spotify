@@ -1,0 +1,498 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+html{
+    background-color: #000000;
+    height: 100%;
+}
+.homecontainer{
+    height: 18vh;
+    width: 45vh;
+    background-color: #181818;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    position: relative;
+    z-index: 1;
+}
+#homeicon{
+    color: #898989;
+    font-size: 22px;
+    position: relative;
+    top: 33px;
+    left: 20px;
+}
+#homeicon a{
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 18px;
+}
+#searchicon{
+    color: #898989;
+    font-size: 22px;
+    position: absolute;
+    top: 93px;
+    left: 23px; 
+}
+#searchicon a{
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 18px;
+    color: #898989;
+}
+.librarycontainer{
+    height: 78vh;
+    width: 45vh;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: #181818;
+    overflow-y: auto;
+    position: relative;
+}
+.libraryicons{
+display: inline;
+color: #898989;
+margin-top: 20px;
+margin-left: 18px;
+position:absolute;
+}
+#librarybook{
+    position: relative;
+    font-size: 22px;
+}
+#librarybook a{
+    margin-left: 18px;
+    font-size: 15px;
+    font-weight: 700;
+}
+#libraryplus{
+    position: relative;
+    left: 110px;
+    font-size: 18px;
+}
+#librarynext{
+    position: relative;
+    font-size: 18px;
+    left: 130px;
+}
+#librarybtn{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    position: relative;
+    top: 70px; 
+    color: white;
+    background-color:#2A2A2A;
+    left: 18px;
+}
+#librarybtn:hover{
+    background-color: #3f3f3f;
+}
+#librarysearchbtn{
+    padding: 8px;
+    border-radius: 20px;
+    position: relative;
+    top: 120px;
+    left: -43px;
+    border: none;
+    background-color: transparent;
+}
+#librarysearch{
+    color:  #898989;
+    font-size: 18px;
+}
+#librarysearchbtn:hover{
+    background-color:#2A2A2A ;
+    color: white;
+}
+.menu{
+    display: flex;
+    align-self: center;
+    justify-content: end;
+    margin-top: 90px;
+    margin-right: 18px;
+    gap: 8px;
+}
+.menu p{
+    color: #898989;
+    font-size: 15px;
+}
+#bars{
+    color: #898989;
+    font-size: 15px;
+    margin-top: 3px;
+}
+.bpraak{
+    display: flex;
+    height: 80px;
+    width: 45vh;
+    align-items: center;
+    margin-top: 10px
+}
+#bpraakimg{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 18px;
+
+
+}
+.bpraak:hover{
+    background-color: #2A2A2A;
+}
+.bpraakinfo{
+    margin-left: 17px;
+    color: white;
+    column-gap: 100px;
+}
+#bpraakname{
+    font-size: 15px;
+
+}
+#bpraakartist{
+    font-size: 13px;
+    margin-top: 5px;
+    color: #898989;
+    font-weight: 600;
+}
+    .browsecontainer {
+        position: absolute;
+        top: 10px;
+        left: 380px;
+        width: 75%;
+        height: 97.5%;
+        background-color: #181818;
+        z-index: 2; 
+        border-radius: 20px;
+        overflow-y: auto;
+        
+    }
+
+.topcontent{
+    display: flex;
+    align-items: center;
+ 
+   
+}
+    #topprevbtn{
+padding: 8px;
+border-radius: 50%;
+border: none;
+position: relative;
+background-color: black;
+top: 20px;
+left: 30px;
+
+    }
+    #topnextbtn{
+        padding: 8px;
+        border-radius: 50%;
+        border: none;
+        position: relative;
+        top: 20px;
+        background-color: black;
+        left: 40px;
+        
+            }
+            #topprev{
+font-size: 20px;
+color: #fff;
+            }
+#topnext{
+    font-size: 20px;
+    color: #fff;
+}
+
+            #topinput{
+                height: 50px;
+                width: 350px;
+                border-radius: 30px;
+                top: 20px;
+                position: relative;
+    left: 60px;
+                border: none;
+                background-color: #2A2A2A;
+                color: white;
+            }
+            #downloadbtn{
+                padding: 13px;
+                border-radius: 20px;
+                position: relative;
+                top: 20px;
+                left: 560px;
+                background-color: #000000;
+                border: none;
+                color: white;
+                font-weight: 800;
+                font-size: 13px;
+            }
+            #downloadbtn:hover{
+                transform: scale(1.1);
+                transition: 0.2s ease-in;
+            }
+            #downdloadicon{
+                position: relative;
+                margin-right: 5px;
+            }
+            #topbell{
+                padding: 8px;
+                border-radius: 20px;
+                border: none;
+                background-color: black;
+                position: relative;
+                top: 20px;
+    left: 570px;
+   
+        
+            }
+            #topbell:hover{
+                transform: scale(1.1);
+                transition: 0.2s ease-in;
+            }
+            #bellicon{
+                color: #898989;
+                font-size: 18px;
+            }
+            #accountbtn{
+                padding: 8px;
+                border-radius: 30px;
+                border: none;
+                background-color: #F573A0;
+                position: relative;
+                top: 20px;
+    left: 580px;
+            }
+            #accountbtn:hover{
+                transform: scale(1.1);
+                transition: 0.2s ease-in;
+            }
+            #accounticon{
+                color: rgb(0, 0, 0);
+                font-size: 15px;
+                
+            }
+            #explore{
+                padding: 8px;
+               position: relative;
+                top: 20px;
+                left: 220px;
+                border-radius: 20px;
+                color: black;
+                background-color: white;
+                border: none;
+                font-weight: 600;
+            }
+            #explore:hover{
+                transform: scale(1.1);
+                transition: 0.2s ease-in;
+            }
+            .maincontent{
+                background-color: #232323;
+                position: relative;
+    margin-top: 33px;
+            }
+
+
+
+.cards{
+    height: 320px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: 
+    ;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #232323;
+  
+
+}
+.card{
+    height: 280px;
+    width: 220px;
+    background-color: #101010;
+    overflow: hidden;
+    border-radius: 10px;
+ 
+}
+
+.cardimg{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    object-fit: cover;
+    right: 10px;
+}
+.albums{
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    margin-left: 15px;
+    position: relative;
+    top: 5px;
+}
+.cardname{
+    font-size: 16px;
+    font-weight: 800;
+    left: 10px;
+    position: relative;
+    top: 15px;
+    color: white;
+}
+.cardinfo{
+    font-size: 14px;
+    position: relative;
+    top: 19px;
+    left: 10px;
+    font-weight: 500;
+    color: #898989;
+    display: flex;
+}
+.card:hover{
+    background-color: #333232;
+    transition: 0.3s ease-out;
+}
+.cardbtn{
+    padding: 16px;
+    border-radius: 30px;
+    top: 195px;
+    position: absolute;
+    left: 165px;
+    border: none;
+    background-color: #1FDF64;
+    display: none;
+   
+}
+#cardicon{
+    font-size: 21px;
+    text-align: center;
+}
+.next{
+    position: relative;
+    top: 170px;
+    left: 884px;
+    padding: 8px;
+    z-index: 2;
+    height: 40px;
+    width: 43px;
+    background-color:#101010;
+    border:none;
+}
+#nexticon{
+    color: white;
+}
+#previcon{
+    color: white;
+}
+.prev{
+    position: relative;
+    top: 170px;
+    left: -203px;
+    padding: 8px;
+    z-index: 2;
+    height: 40px;
+    width: 43px;
+    background-color: #101010;
+    border: none;
+}
+
+
+.browsecontainer::-webkit-scrollbar {
+    display: none; 
+}
+.browsecontainer {
+    scrollbar-color: #1f1c1a #f1f1f1; 
+}
+#bar{
+    width: 50%;
+    position: relative;
+    top: -20px;
+}
+.player{
+    height: 100px;
+    background-color: #101010;
+    position: absolute;
+    display: flex;
+    z-index: 50;
+    top: 682px;
+    width: 100%;
+  
+    align-items: center;
+    justify-content: center;
+
+}
+.playingicons{
+    display: inline;
+    position: absolute;
+    top: 48px;
+    gap: 10px;
+}
+.playbtn{
+    background-color: #7c7c7c;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+    
+#playnexticon{
+    font-size:20px;
+    color: white;
+}
+#playprevicon{
+    font-size: 20px;
+    color: white;
+}
+#playicon{
+    font-size: 20px;
+    color: white;
+}
+.librarycontainer::-webkit-scrollbar {
+    display: none; 
+}
+.librarycontainer {
+    scrollbar-color: #1f1c1a #f1f1f1; 
+    scroll-behavior: smooth;
+}
+#inputvol{
+    height: 5px;
+    width: 100px;
+   right: -700px;
+    top: 20px;
+    position: absolute;
+    cursor: pointer;
+   
+}
+#volumeicon{
+    right: -585px;
+    top: 14px;
+    position: absolute;
+    color: #7c7c7c;
+    font-size: 20px;
+    cursor: pointer;
+}
+.bac{
+    background-color: #232323;
+   padding-bottom: 100px;
+}
+.playbtnicon{
+    background-color: #7c7c7c;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+html{
+    cursor: pointer;
+}

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/28771288b4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   
+    <div class="homecontainer">
+        <div class="icons">
+            <i id="homeicon" class="fa-solid fa-house"><a>Home</a></i>
+            <i id="searchicon" class="fa-solid fa-magnifying-glass"><a>Search</a></i>
+        </div>
+    </div>
+    <div class="browsecontainer">
+        <div class="topcontent">
+            <button id="topprevbtn"><i id="topprev" class="fa-solid fa-arrow-left"></i></button>
+            <button id="topnextbtn"> <i id="topnext" class="fa-solid fa-arrow-right"></i></button>
+            <input id="topinput" placeholder="        What Do You Want To Play ?"  type="search">
+            <button id="downloadbtn"><i id="downdloadicon" class="fa-solid fa-arrow-down"></i>Install App</button>
+            <button id="topbell"><i id="bellicon" class="fa-solid fa-bell"></i></button>
+            <button id="accountbtn"><i id="accounticon" class="fa-solid fa-a"></i></button>
+            <button id="explore">Explore Premimum </button>
+        </div>
+        <div class="bac">
+        <div class="maincontent">
+            <span class="albums">Spotify Playlists</span>
+            <button class="prev"><i id="previcon" class="fa-solid fa-arrow-left"></i></button>
+            <button class="next"><i id="nexticon" class="fa-solid fa-arrow-right"></i></button>
+            <div class="cards">
+               
+                <div class="card"  data-song-url="./excuses.mp3">
+                   <img class="cardimg" src="https://d2kbvjszk9d5ln.cloudfront.net/yshop/upload/pic/lofi-music-with-text-20220228071814906.jpg" alt="">
+                   <span class="cardname">Lofi Girl-Beats To Relax</span>
+                   <span class="cardinfo">By Lofi Girl</span>
+                   <button class="cardbtn"><i id="cardicon" class="fa-solid fa-play"></i></button>
+                </div>
+                <div class="card" data-song-url="./2pac.mp3">
+                    <img class="cardimg" src="https://i.scdn.co/image/ab67706f00000003341238f14699ca3df862d8de" alt="">
+                    <span class="cardname">All Out 90's</span>-
+                    <span class="cardinfo">Top Songs of 1990's</span>
+                    <button class="cardbtn"><i id="cardicon" class="fa-solid fa-play"></i></button>
+                </div>
+                <div class="card" data-song-url="./chill.mp3" >
+                    <img class="cardimg" src="https://i.scdn.co/image/ab67706c0000da848a45f0154c73eef577b1cf86" alt="">
+                    <span class="cardname">Chill Hits</span>
+                    <span class="cardinfo">Kick Back To Classic Chill Hits</span>
+                    <button class="cardbtn"><i id="cardicon" class="fa-solid fa-play"></i></button>
+                </div>
+                <div class="card" data-song-url="./piano.mp3">
+                    <img class="cardimg" src="https://f4.bcbits.com/img/a2722103824_10.jpg" alt="">
+                    <span class="cardname">Peaceful Piano</span>
+                    <span class="cardinfo">Peaceful Piano To Help You</span>
+                    <button class="cardbtn"><i id="cardicon" class="fa-solid fa-play"></i></button>
+                </div>
+                <div class="card" data-song-url="./rock.mp3">
+                    <img class="cardimg" src="https://tse2.mm.bing.net/th?id=OIP.c9Fl49wURp-7tk162cRncQHaF0&pid=Api&P=0&h=220" alt="">
+                    <span class="cardname">Rock Legends</span>
+                    <span class="cardinfo">Rock Legends & Epic Songs</span>
+                    <button class="cardbtn"><i id="cardicon" class="fa-solid fa-play"></i></button>
+                </div>
+             
+            </div>
+            
+            </div>
+
+    
+        <span class="albums">Popular albums</span>
+        <div class="cards">
+            <div class="card" data-song-url="./animal.mp3">
+               <img class="cardimg" src="https://tse4.mm.bing.net/th?id=OIP.raJCZ85vDTelZDnG2LbH-wHaKX&pid=Api&P=0&h=220" alt="">
+               <span class="cardname">Animal</span>
+               <span class="cardinfo">Arjun Bhardwaj,Jaani</span>
+               <button class="cardbtn"><i id="cardicon" class="fa-solid fa-play"></i></button>
+
+            </div>
+            <div class="card" data-song-url="./aur.mp3">
+                <img class="cardimg" src="https://ww-pagalworld.com/uploads/thumb/sft27/13141_4.jpg" alt="">
+                <span class="cardname">Tu Hai Kahan</span>
+                <span class="cardinfo">AUR</span>
+                <button class="cardbtn"><i id="cardicon" class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="card" data-song-url="./lovesick.mp3">
+                <img class="cardimg" src="https://tse2.mm.bing.net/th?id=OIP.JRWn-PuMxoTsYNEUxVmcmwHaHa&pid=Api&P=0&h=220" alt="">
+                <span class="cardname">MooseTape</span>
+                <span class="cardinfo">Sidhu Moose Wala</span>
+                <button class="cardbtn"><i id="cardicon" class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="card" data-song-url="./king.mp3">
+                <img class="cardimg" src="https://tse3.mm.bing.net/th?id=OIP.pmMi-ZuQFs5p2t-OcRwD9wHaHa&pid=Api&P=0&h=220" alt="">
+                <span class="cardname">LEO</span>
+                <span class="cardinfo">Shubh</span>
+                <button class="cardbtn"><i id="cardicon" class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="card"data-song-url="./Open Letter.mp3">
+                <img class="cardimg" src="https://i.ytimg.com/vi/MPLrDeOWN6k/maxresdefault.jpg" alt="">
+                <span class="cardname">OpenLetter</span>
+                <span class="cardinfo">Talha Anjum</span>
+                <button class="cardbtn"><i id="cardicon" class="fa-solid fa-play"></i></button>
+            </div>
+        </div>
+    
+    
+        <span class="albums">Popular Radio</span>
+        <div class="cards">
+            <div class="card">
+               <img class="cardimg" src="https://tse2.mm.bing.net/th?id=OIP.RHx1cLXVvjwTKonMkoI2-wHaE8&pid=Api&P=0&h=220" alt="">
+               <span class="cardname" >Nusrat Fateh Ali Khan </span>
+               <span class="cardinfo">Radio</span>
+               <button class="cardbtn"><i id="cardicon" class="fa-solid fa-play"></i></button>
+
+            </div>
+            <div class="card">
+                <img class="cardimg" src="https://tse4.mm.bing.net/th?id=OIP.GRk7H1n8KAG3-Pz3HWhynQHaHa&pid=Api&P=0&h=220" alt="">
+                <span class="cardname" >AP Dhillon</span>
+                <span class="cardinfo">Radio</span>
+                <button class="cardbtn"><i id="cardicon" class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="card">
+                <img class="cardimg" src="https://tse1.mm.bing.net/th?id=OIP.Czl3CdOvU6YzXcdklXDLHgHaEc&pid=Api&P=0&h=220" alt="">
+                <span class="cardname" >Atif Aslam</span>
+                <span class="cardinfo">radio</span>
+                <button class="cardbtn"><i id="cardicon" class="fa-solid fa-play"></i></button>
+            </div>
+            <div class="card">
+                <img class="cardimg" src="https://tse2.mm.bing.net/th?id=OIP.dtoSwI9yW3x2kWS6OzWzmgHaHa&pid=Api&P=0&h=220" alt="">
+                <span class="cardname">Shubh</span>
+                <span class="cardinfo">Radio</span>
+                <button class="cardbtn"><i id="cardicon" class="fa-solid fa-play"></i></button>
+            </div>
+        
+      
+            <div class="card">
+               <img class="cardimg" src="https://tse3.mm.bing.net/th?id=OIP.wU34q70CQrkvmDREcbZkkAHaHa&pid=Api&P=0&h=220" alt="">
+               <span class="cardname">Bohemia</span>
+               <span class="cardinfo">Radio</span>
+               <button class="cardbtn"><i id="cardicon" class="fa-solid fa-play"></i></button>
+
+            </div>
+
+    </div>
+    
+    </div>
+</div>
+
+    <div class="librarycontainer">
+        <div class="libraryicons">
+            <i id="librarybook" class="fa-solid fa-book"><a>Your Library</a></i>
+            <i id="libraryplus" class="fa-solid fa-plus"></i>
+            <i id="librarynext" class="fa-solid fa-arrow-right"></i>
+        </div>
+        <button id="librarybtn">Artists</button>
+        <button id="librarysearchbtn" ><i id="librarysearch" class="fa-solid fa-magnifying-glass"></i></button>
+        <div class="menu">
+            <p>Recents</p>
+        <i id="bars"  class="fa-solid fa-bars"></i>
+        </div>
+        <div class="artists">
+            <div class="bpraak" data-song-url="./sari.mp3">
+                <img id="bpraakimg" src="https://tse2.mm.bing.net/th?id=OIP.dLH4-JknerfvC8jpHc4fzAHaEK&pid=Api&P=0&h=220" alt="">
+                <div class="bpraakinfo">
+                <p id="bpraakname">B Praak</p>
+                <p id="bpraakartist">Artist</p>
+            </div>
+            </div>
+            <div class="bpraak"  data-song-url="./kali.mp3">
+                <img id="bpraakimg" src="https://tse4.mm.bing.net/th?id=OIP.tfBu_K-WvYApDWpVxx4VlQHaHa&pid=Api&P=0&h=220" alt="">
+                <div class="bpraakinfo">
+                <p id="bpraakname">Nusrat Fateh Ali Khan</p>
+                <p id="bpraakartist">Artist</p>
+            </div>
+            </div>
+            <div class="bpraak" data-song-url="./agency.mp3">
+                <img id="bpraakimg" src="https://tse3.explicit.bing.net/th?id=OIP.pUUL-f5h48t5pxkbTXETKwHaHd&pid=Api&P=0&h=220" alt="">
+                <div class="bpraakinfo">
+                <p id="bpraakname">Talha Younus</p>
+                <p id="bpraakartist">Artist</p>
+            </div>
+            </div>
+            <div class="bpraak"  data-song-url="./be.mp3">
+                <img id="bpraakimg" src="https://tse3.mm.bing.net/th?id=OIP.VHxs6KxqQCPpfg9JTx_iaAHaFZ&pid=Api&P=0&h=220" alt="">
+                <div class="bpraakinfo">
+                <p id="bpraakname">Atif Aslam</p>
+                <p id="bpraakartist">Artist</p>
+            </div>
+            </div>
+            <div class="bpraak"  data-song-url="./295.Mp3">
+                <img id="bpraakimg" src="https://tse2.mm.bing.net/th?id=OIP.ZfEh7jG0RqNxCYaSB2VeoAHaHa&pid=Api&P=0&h=220" alt="">
+                <div class="bpraakinfo">
+                <p id="bpraakname">Sidhu Moose Wala</p>
+                <p id="bpraakartist">Artist</p>
+            </div>
+            </div>
+            <div class="bpraak"  data-song-url="./case.mp3">
+                <img id="bpraakimg" src="https://tse3.mm.bing.net/th?id=OIP.2FEiHgZrm8FZiBfciLVm-gHaEr&pid=Api&P=0&h=220" alt="">
+                <div class="bpraakinfo">
+                <p id="bpraakname">Diljit Dosanjh</p>
+                <p id="bpraakartist">Artist</p>
+            </div>
+            </div>
+            <div class="bpraak"  data-song-url="./satranga.mp3">
+                <img id="bpraakimg" src="https://tse4.mm.bing.net/th?id=OIP.d8KauKtoeJbgWfEaWg2FkQHaEK&pid=Api&P=0&h=220" alt="">
+                <div class="bpraakinfo">
+                <p id="bpraakname">Arijit Singh</p>
+                <p id="bpraakartist">Artist</p>
+            </div>
+            </div>
+            <div class="bpraak" data-song-url="./sari.mp3">
+                <img id="bpraakimg" src="https://tse3.mm.bing.net/th?id=OIP.1Du4vTA5OP2fxY6KDRNVYgHaEK&pid=Api&P=0&h=220" alt="">
+                <div class="bpraakinfo">
+                <p id="bpraakname">B Praak</p>
+                <p id="bpraakartist">Artist</p>
+            </div>
+            </div>
+        </div>
+    </div>
+   <div class="player">
+    <input id="bar" type="range" max="100" min="0">
+    <div class="playingicons">
+        
+        <button class="playbtn"><i id="playprevicon" class="fa-solid fa-arrow-left"></i></button>
+        <button class="playbtnicon">
+            <i id="playicon" class="fa-solid fa-play"></i></button>
+        <button class="playbtn"><i id="playnexticon" class="fa-solid fa-arrow-right"></i></button>
+        <i id="volumeicon" class="fa-solid fa-volume-high"></i>
+        <input type="range" name="Volume" id="inputvol" max="100 " min="0">
+    </div>
+   </div>
+   <audio id="audioPlayer"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
